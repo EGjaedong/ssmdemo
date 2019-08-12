@@ -1,0 +1,14 @@
+cn\webdemo\ssm\service\impl\ProductServiceImpl.class
+cn\webdemo\ssm\service\impl\OrdersServiceImpl.class
+cn\webdemo\ssm\service\ProducerService.class
+cn\webdemo\ssm\service\impl\UserServiceImpl.class
+cn\webdemo\ssm\service\OrdersService.class
+cn\webdemo\ssm\service\RoleService.class
+cn\webdemo\ssm\service\UserService.class
+cn\webdemo\ssm\service\impl\PermissionServiceImpl.class
+cn\webdemo\ssm\service\impl\SysLogServiceImpl.class
+cn\webdemo\ssm\service\PermissionService.class
+cn\webdemo\ssm\service\SysLogService.class
+cn\webdemo\ssm\service\impl\RoleServiceImpl.class
+cn\webdemo\ssm\service\impl\ProducerServiceImpl.class
+cn\webdemo\ssm\service\ProductService.class

@@ -1,0 +1,8 @@
+cn\webdemo\ssm\listener\ConsumerMessageListener.class
+cn\webdemo\ssm\controller\SysLogController.class
+cn\webdemo\ssm\controller\OrdersController.class
+cn\webdemo\ssm\controller\PermissionController.class
+cn\webdemo\ssm\controller\LogAop.class
+cn\webdemo\ssm\controller\UserController.class
+cn\webdemo\ssm\controller\ProductorController.class
+cn\webdemo\ssm\controller\RoleController.class

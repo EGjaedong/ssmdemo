@@ -1,0 +1,8 @@
+cn\webdemo\ssm\dao\RoleDao.class
+cn\webdemo\ssm\dao\SysLogDao.class
+cn\webdemo\ssm\dao\TravellerDao.class
+cn\webdemo\ssm\dao\MemberDao.class
+cn\webdemo\ssm\dao\OrdersDao.class
+cn\webdemo\ssm\dao\PermissionDao.class
+cn\webdemo\ssm\dao\ProductDao.class
+cn\webdemo\ssm\dao\UserDao.class

@@ -1,0 +1,8 @@
+cn\webdemo\ssm\domain\Product.class
+cn\webdemo\ssm\domain\Orders.class
+cn\webdemo\ssm\domain\UserInfo.class
+cn\webdemo\ssm\domain\Syslog.class
+cn\webdemo\ssm\domain\Permission.class
+cn\webdemo\ssm\domain\Traveller.class
+cn\webdemo\ssm\domain\Role.class
+cn\webdemo\ssm\domain\Member.class
