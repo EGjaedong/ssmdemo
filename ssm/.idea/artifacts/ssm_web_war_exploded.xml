@@ -17,14 +17,14 @@
           <element id="archive" name="ssm_service-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ssm_service" />
           </element>
+          <element id="archive" name="ssm_dao-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm_dao" />
+          </element>
           <element id="archive" name="ssm_domain-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ssm_domain" />
           </element>
           <element id="archive" name="ssm_utils-1.0-SNAPSHOT.jar">
             <element id="module-output" name="ssm_utils" />
-          </element>
-          <element id="archive" name="ssm_dao-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="ssm_dao" />
           </element>
           <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.8" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.2.RELEASE" />
@@ -70,6 +70,9 @@
           <element id="library" level="project" name="Maven: org.apache.geronimo.specs:geronimo-j2ee-management_1.1_spec:1.0.1" />
           <element id="library" level="project" name="Maven: commons-net:commons-net:3.1" />
           <element id="library" level="project" name="Maven: org.jasypt:jasypt:1.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.8" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.8" />
           <element id="library" level="project" name="Maven: javax.annotation:jsr250-api:1.0" />
         </element>
       </element>

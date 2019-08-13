@@ -1,4 +1,5 @@
 cn\webdemo\ssm\listener\ConsumerMessageListener.class
+cn\webdemo\ssm\controller\MessageConvertForSys.class
 cn\webdemo\ssm\controller\SysLogController.class
 cn\webdemo\ssm\controller\OrdersController.class
 cn\webdemo\ssm\controller\PermissionController.class

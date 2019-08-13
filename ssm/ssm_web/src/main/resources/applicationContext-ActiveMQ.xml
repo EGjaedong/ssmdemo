@@ -17,7 +17,7 @@
     </bean>
 
     <!-- 消息转换器 -->
-    <bean id="messageConvertForSys" class="cn.webdemo.ssm.utils.MessageConvertForSys"/>
+    <bean id="messageConvertForSys" class="cn.webdemo.ssm.controller.MessageConvertForSys"/>
 
     <!-- 队列目的地，点对点 -->
     <bean id="queueDestination" class="org.apache.activemq.command.ActiveMQQueue">

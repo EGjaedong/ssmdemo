@@ -2,12 +2,13 @@ package cn.webdemo.ssm.listener;
 
 import cn.webdemo.ssm.domain.Syslog;
 import cn.webdemo.ssm.service.SysLogService;
+import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.jms.JMSException;
-import javax.jms.Message;
-import javax.jms.MessageListener;
-import javax.jms.ObjectMessage;
+import javax.jms.*;
+import java.io.IOException;
 import java.util.Date;
 
 public class ConsumerMessageListener implements MessageListener {
@@ -17,16 +18,23 @@ public class ConsumerMessageListener implements MessageListener {
     @Override
     public void onMessage(Message message) {
         System.out.println("[receive message]");
-        ObjectMessage objectMessage = (ObjectMessage) message;
+        TextMessage textMessage = (TextMessage) message;
         try {
-            String key1 = objectMessage.getStringProperty("key1");
-            System.out.println(key1);
+            String json = textMessage.getText();
 
-            Syslog syslog = (Syslog) objectMessage.getObjectProperty("key1");
+            ObjectMapper mapper = new ObjectMapper();
+
+            Syslog syslog = mapper.readValue(json, Syslog.class);
             System.out.println(syslog);
+            logService.save(syslog);
         }catch (JMSException e){
             System.out.println("日志存储失败");
+        } catch (JsonParseException e) {
+            e.printStackTrace();
+        } catch (JsonMappingException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-
     }
 }

@@ -1,5 +1,7 @@
 package cn.webdemo.ssm.domain;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -9,6 +11,7 @@ import java.util.Date;
  */
 public class Syslog implements Serializable {
     private int id;
+    //@JsonFormat(pattern = "")
     private Date visitTime;
     private String visitTimeStr;
     private String username;
@@ -79,5 +82,19 @@ public class Syslog implements Serializable {
 
     public void setMethod(String method) {
         this.method = method;
+    }
+
+    @Override
+    public String toString() {
+        return "Syslog{" +
+                "id=" + id +
+                ", visitTime=" + visitTime +
+                ", visitTimeStr='" + visitTimeStr + '\'' +
+                ", username='" + username + '\'' +
+                ", ip='" + ip + '\'' +
+                ", url='" + url + '\'' +
+                ", executionTime=" + executionTime +
+                ", method='" + method + '\'' +
+                '}';
     }
 }

@@ -1,0 +1,9 @@
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:16 +0800] "GET /ssm_web HTTP/1.1" 302 - http-bio-8888-exec-1 0
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:16 +0800] "GET /ssm_web/ HTTP/1.1" 302 - http-bio-8888-exec-3 47
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:17 +0800] "GET /ssm_web/login.jsp HTTP/1.1" 200 2579 http-bio-8888-exec-4 1097
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:28 +0800] "POST /ssm_web/login.do HTTP/1.1" 200 12818 http-bio-8888-exec-5 1566
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:28 +0800] "GET /ssm_web/plugins/input-mask/jquery.inputmask.extensions.js HTTP/1.1" 404 1065 http-bio-8888-exec-7 3
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:28 +0800] "GET /ssm_web/plugins/input-mask/jquery.inputmask.extensions.js HTTP/1.1" 404 1065 http-bio-8888-exec-8 2
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:35 +0800] "GET /ssm_web/user/findAll.do HTTP/1.1" 200 16467 http-bio-8888-exec-9 374
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:35 +0800] "GET /ssm_web/plugins/input-mask/jquery.inputmask.extensions.js HTTP/1.1" 404 1065 http-bio-8888-exec-10 1
+0:0:0:0:0:0:0:1 - - [13/Aug/2019:11:31:35 +0800] "GET /ssm_web/plugins/input-mask/jquery.inputmask.extensions.js HTTP/1.1" 404 1065 http-bio-8888-exec-10 2
